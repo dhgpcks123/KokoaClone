@@ -1,0 +1,15 @@
+아이콘 싸이트
+
+  HeroIcons(svg임) : https://heroicons.dev/
+  --> <svg> 픽셀이 아닌 Path로 되어있음
+
+  FontAwesome(font임) : https://fontawesome.com/
+  --> 내 계정에 연결된 CDN은 다음과 같다.
+  *link
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  *script
+  <script src="https://kit.fontawesome.com/e6e9b86680.js" crossorigin="anonymous"></script>  
+
+
+  +추가 (중첩 회전 등등 기능이 있음)
+  https://coding-factory.tistory.com/192 참고
