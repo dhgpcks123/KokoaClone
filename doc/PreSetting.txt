@@ -1,0 +1,38 @@
+
+**단축키 설정
+왼쪽 밑에 설정 - keyboard shortcuts 클릭 후 단축키를 아래와 같이 변경
+ Add Selection To Next Find Match : Ctrl + D
+--> ctrl+q
+(이게 뭐냐면 똑같은거 찾아주는거야)
+
+ delete Line Ctrl shift K
+--> ctrl+ d
+
+ Copy Line Down : shift + alt +  DownArrow
+--> ctrl + alt + DownArrow
+ Copy Line Up: shift+alt+UpArrow
+--> ctrl + alt + UpArrow
+
+ Add Cursor Above : Ctrl + Alt + DownArrow
+--> ctrl+ shift+downArrow
+ Add Cursor Below : Ctrl + Alt + UpArrow
+--> ctrl+shift+Uparrow
+
+** Editor : Tab Size
+왼쪽 밑에 설정 - Settings- Commonly Used - Editor: Tab Size는 2로 해준다
+
+**extensions 설치
+1. Material Icon Theme ( 아이콘 바꿔주기 )
+2. Prettier ( 코드 정리해주기 )
+3. Bracket Pair Colorizer(괄호에 색깔주기)
+4. Indent-Rainbow (들여쓰기 색 주기)
+5. auto rename Tag(앞에 태그 바꿔주면 닫히는 태그 자동으로 바꿔줌)
+6.  css peek ( id나 class 클릭했을 경우 연결 된 css 파일 찾아가줌. ctrl)
+7. HTML CSS Support ( html id나 class 변경할 때 자동 완성해줌)
+<-> HTML to CSS autocompletion (css에서 html 클래스나 아이디 검색기능)
+
+8. Live server( 크롬 자동 새로고침 )
+ctrl+shift+p : command palette 들어가서
+live server : Open with Live Sever - > 페이지가 열리고 저장할 때마다 만들어짐
+
+

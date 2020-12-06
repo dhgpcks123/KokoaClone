@@ -13,3 +13,16 @@
 
   +추가 (중첩 회전 등등 기능이 있음)
   https://coding-factory.tistory.com/192 참고
+
+
+
+  
+  참고 ] fontawesome아이콘 사이즈
+  <i class="fas fa-camera fa-xs"></i>
+  <i class="fas fa-camera fa-sm"></i>
+  <i class="fas fa-camera fa-lg"></i>
+  <i class="fas fa-camera fa-2x"></i>
+  <i class="fas fa-camera fa-3x"></i>
+  <i class="fas fa-camera fa-5x"></i>
+  <i class="fas fa-camera fa-7x"></i>
+  <i class="fas fa-camera fa-10x"></i>

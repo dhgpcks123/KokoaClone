@@ -1,0 +1,43 @@
+# box-sizing: border-box;
+  
+    예 ] 
+      .nav{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        box-sizing: border-box;
+      }
+
+    200px의 박스에 padding-left: 50px;
+
+    ???결과 :
+    ┌───────────────    250px   ─────────────────┐
+    ┌──────────┬─────────────────────────────────┐
+    │          │                                 │
+    │ 50px     │              200px              │
+    │ padding  │                                 │            
+    │          │                                 │
+    └──────────┴─────────────────────────────────┘
+
+    box-sizing: border-box 적용시 :
+    ┌──────────    200px    ───────────┐
+    ┌──────────┬───────────────────────┐
+    │          │                       │
+    │ 50px     │      200px            │
+    │ padding  │       ->150px         │            
+    │          │                       │
+    └──────────┴───────────────────────┘
+      ==> 내가 padding줘도... 늘리지 말아줘ㅜㅜ
+
+
+# border-radius
+  사각형을 원으로 만들고 싶다?
+  width값의 절반을 border-radius값으로 주면 된다.
+  ex)
+    width: 20px;
+    height: 20px;
+    display: block;
+    border-radius : 10px;
+
+
+# position: relative와 absolute

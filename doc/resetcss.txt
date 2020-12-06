@@ -1,0 +1,8 @@
+웹을 만들어서 보면 기본값으로 padding, margin 설정되어있는데
+이 모든 걸 초기화 한 후 조정하면 좀 더 의도하는 데로 디자인 할 수 있음.
+
+https://meyerweb.com/eric/tools/css/reset/ 에서 가져올 수 있음.
+
+  1. 파일 reset.css를 css폴더 밑에 만든 후
+  2. style.css(메인 css)에 @import "reset.css";
+    @import해준다.

@@ -7,3 +7,11 @@
   2) font-family: ~~; 추가
 
   * 꼭 쓸 폰트만 추가해서 사용하도록, 추가하면 할 수록 웹사이트가 무거워집니다;
+
+  
+예 )
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+  body{
+    font-family: 'Open Sans', sans-serif;
+  }

@@ -1,0 +1,34 @@
+.status-bar{
+  width: 100%;
+  box-sizing: border-box;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 3px;
+  position: fixed;
+  top: 0px;
+}
+
+.status-bar__column{
+  width: 33%;
+}
+/* css hack! 크기가 각각 다르니까 중간에 안와... 그걸 처리하는 방법이다.
+각각의 column을 33%씩 주고, first-child/ nth-child(2) center/ last-child flex-end 주기 */
+
+.status-bar__column:first-child span{
+  margin-right: 5px;
+}
+
+.status-bar__column:nth-child(2){
+  display:flex;
+  justify-content: center;
+}
+.status-bar__column:last-child{
+  display:flex;
+  justify-content: flex-end;
+  align-items:center;
+}
+
+.status-bar__column .fa-battery-three-quarters{
+  margin: 0px 5px;
+}

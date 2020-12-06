@@ -1,0 +1,51 @@
+https://code.tutsplus.com/ko/tutorials/the-30-css-selectors-you-must-memorize--net-16048
+
+1. * 전부 (실전에서는 과부하 걸려서 사용하기 적절하지 않다네)
+
+2. descendant (띄워쓰기)
+  예 ]
+    li a {
+      text-decoration: none;
+    }
+  
+  ==> li밑에 a 전~~~부 다 
+
+3. + 인접선택자
+
+  예 ]
+    ul + p {
+      color: red;
+    }
+  
+  ==> 앞의 요소 바로 뒤에 있는 요소만 선택합니다.
+      위 코드에서 각 ul 뒤에 오는 첫 번째 단락의 텍스트만 빨간색이 됩니다.
+
+4. ul ~ p
+
+  ==> ul아래에 있는 모든 형제 p 
+  
+5. > 
+
+  예 ]
+    #container > ul {
+      border: 1px solid black;
+    }
+
+    <div id="container">
+      <ul>********************* 여기만 적용
+          <li> List Item
+            <ul>
+              <li> Child </li>
+            </ul>
+          </li>
+          <li> List Item </li>
+          <li> List Item </li>
+          <li> List Item </li>
+      </ul>
+    </div>
+
+  ==> 직계자손만 선택한다 
+
+6. child
+
+  X:last-child, X:first-child, X:nth-child(n)
