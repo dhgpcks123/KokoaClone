@@ -1,4 +1,4 @@
-.nav{
+.nav {
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -8,34 +8,33 @@
   height: 70px;
   /*
     box-sizing
-
   */
   border-top: 1px solid rgba(121, 121, 121, 0.3);
 }
 
-.nav__list{
+.nav__list {
   display: flex;
   justify-content: space-between;
 }
 
-.nav__link{
+.nav__link {
   position: relative;
   color: #2e363e;
   font-size: 15px;
 }
 
-.nav__notification{
+.nav__notification {
   position: absolute;
   left: 15px;
   bottom: 15px;
 }
 
-.nav__ellipsisDot{
+.nav__ellipsisDot {
   background-color: tomato;
   width: 6px;
   height: 6px;
   position: absolute;
   border-radius: 3px;
-  right:-10px;
+  right: -10px;
   top: -15px;
 }
